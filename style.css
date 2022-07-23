@@ -1,0 +1,28 @@
+body{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 100px 100px 100px;
+}
+.counters__container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.counter {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   margin: 0px 10px 0px 0px;
+}
+.counter > *:not(:last-child){
+   margin: 0px 0px 10px 0px;
+}
+button{
+
+}
+input{
+
+}
